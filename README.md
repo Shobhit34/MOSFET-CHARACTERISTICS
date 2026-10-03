@@ -35,3 +35,10 @@ PART -2
 DESIGNING AN INVERTER USING A NMOS AND PMOS
 
 <img width="293" height="248" alt="image" src="https://github.com/user-attachments/assets/4650b568-7280-4f17-9305-bab487e23489" />
+
+
+PART - 3 
+
+RING OSCILLATOR USING 5 INVERTERS
+
+<img width="290" height="253" alt="Screenshot 2026-10-04 004045" src="https://github.com/user-attachments/assets/48521e6a-0018-4e21-84ff-98c56fc78ef9" />
