@@ -1,0 +1,15 @@
+*PMOS Id-Vgs characterization 
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+Vdd vdd 0 1.8
+Vgate gate 0 1.8
+Vdrain drain 0 0
+XM1 drain gate vdd vdd sky130_fd_pr__pfet_01v8 W=2 L=0.15
+
+.control
+dc Vgate 1.8 0 -0.01 
+plot -i(Vdrain) vs v(gate)
+write ../data/pmos_idvgs.raw
+.endc
+.end
+

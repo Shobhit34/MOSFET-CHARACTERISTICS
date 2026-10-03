@@ -1,0 +1,16 @@
+*NMOS Id-Vgs Characterization
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+Vgs gate 0 0
+Vds drain 0 1.8
+XM1 drain gate 0 0 sky130_fd_pr__nfet_01v8 W=1 L=0.15
+
+.control
+
+dc Vgs 0 1.8 0.01
+plot -i(Vds) vs v(gate)
+let vth_est=0
+write ../data/nmos_idvgs.raw
+.endc
+
+.end

@@ -1,0 +1,16 @@
+*CMOS Inverter - DC sweep (VTC)
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+Vdd vdd 0 1.8
+Vin in 0 0 
+
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 W=2 L=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 W=1 L=0.15
+
+.control
+dc Vin 0 1.8 0.01 
+plot v(out) vs v(in)
+write ../data/inverter_vtc.raw
+.endc
+.end
