@@ -17,3 +17,11 @@ Plotting Id vs Vgs graph for NMOS
 Plotting for Id vs Vds graph for NMOS
 
 <img width="293" height="251" alt="image" src="https://github.com/user-attachments/assets/886bcbd9-1a82-41b2-9647-e43d5ec71510" />
+
+Plotting Id vs Vgs for PMOS
+
+<img width="299" height="250" alt="image" src="https://github.com/user-attachments/assets/66ce43b0-711d-4e31-b59f-3326f9b6b23e" />
+
+Plotting Id vs Vds for PMOS
+
+<img width="294" height="249" alt="image" src="https://github.com/user-attachments/assets/fc6ff4ef-998d-47d9-aec2-e1f43d6b8973" />
