@@ -2,7 +2,7 @@ MOSFET Characterization using skywater 130 on ngspice
 
 Reasons for building this project -
 Provides me with a hands on knowledge of MOSFETS and their working apart from their textbook definition.
-Also helps me get familiar with tools like Docker , ngspice , SkyWater130.
+Also helps me get familiar with new tools.
 
 Details :
 
@@ -11,6 +11,7 @@ Part 1 :
 This begins with understanding how a single NMOS and PMOS actually behaves using the sky130 model.
 
 Begins with me getting familiar with ngspice and sky130 model libraries.
+
 Plotting Id vs Vgs graph for NMOS
 <img width="295" height="247" alt="image" src="https://github.com/user-attachments/assets/13e71541-0519-4443-9fa8-9de83a8de904" />
 
@@ -42,3 +43,16 @@ PART - 3
 RING OSCILLATOR USING 5 INVERTERS
 
 <img width="290" height="253" alt="Screenshot 2026-10-04 004045" src="https://github.com/user-attachments/assets/48521e6a-0018-4e21-84ff-98c56fc78ef9" />
+
+
+
+
+ Tools Used :
+- ngspice 47 — SPICE circuit simulation
+- SkyWater sky130A PDK — open-source 130nm process (device models)
+- Docker (IIC-OSIC-TOOLS) — containerized toolchain environment
+- WSL2 (Ubuntu) — Linux environment on Windows
+
+FUTURE PLANS :
+-Adding .measure to extract Vth, VM, and noise margins numerically instead of reading them off plots.
+-Repeat simulation across process corners(ff,ss).
