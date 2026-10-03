@@ -25,3 +25,13 @@ Plotting Id vs Vgs for PMOS
 Plotting Id vs Vds for PMOS
 
 <img width="294" height="249" alt="image" src="https://github.com/user-attachments/assets/fc6ff4ef-998d-47d9-aec2-e1f43d6b8973" />
+
+
+
+
+
+PART -2 
+
+DESIGNING AN INVERTER USING A NMOS AND PMOS
+
+<img width="293" height="248" alt="image" src="https://github.com/user-attachments/assets/4650b568-7280-4f17-9305-bab487e23489" />
