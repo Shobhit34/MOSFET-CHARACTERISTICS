@@ -13,3 +13,7 @@ This begins with understanding how a single NMOS and PMOS actually behaves using
 Begins with me getting familiar with ngspice and sky130 model libraries.
 Plotting Id vs Vgs graph for NMOS
 <img width="295" height="247" alt="image" src="https://github.com/user-attachments/assets/13e71541-0519-4443-9fa8-9de83a8de904" />
+
+Plotting for Id vs Vds graph for NMOS
+
+<img width="293" height="251" alt="image" src="https://github.com/user-attachments/assets/886bcbd9-1a82-41b2-9647-e43d5ec71510" />
